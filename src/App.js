@@ -12,7 +12,7 @@ function App() {
           COMING SOON
         </h1>
         <h3 className="wip" style={{ color: "#fff" }}>
-          Levelpro.com is under construction
+          Sember.com is under construction
         </h3>
 
         <div className="team">
@@ -42,7 +42,7 @@ function App() {
           </Card>
         </div>
         <p className="copyright" style={{ color: "#fff" }}>
-          © 2020 Coming soon Levelpro.com{" "}
+          © 2020 Coming soon Sember.com{" "}
         </p>
       </div>
     </div>
