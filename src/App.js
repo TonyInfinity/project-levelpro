@@ -1,24 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Card } from "antd";
+
+const { Meta } = Card;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="app">
+      <div className="header">
+        <h1 className="coming-soon" style={{ color: "#fff" }}>
+          COMING SOON
+        </h1>
+        <h3 className="wip" style={{ color: "#fff" }}>
+          Levelpro.com is under construction
+        </h3>
+
+        <div className="team">
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              />
+            }
+          >
+            <Meta title="Tôny Quách" description="Developer" />
+          </Card>
+        </div>
+        <div className="team">
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              />
+            }
+          >
+            <Meta title="N/A" description="N/A" />
+          </Card>
+        </div>
+        <p className="copyright" style={{ color: "#fff" }}>
+          © 2020 Coming soon Levelpro.com{" "}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
