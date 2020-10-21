@@ -21,7 +21,7 @@ function App() {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/116869522_1237468073255337_6769249137399727135_n.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=9jWZ8oc19LAAX8oiAk4&_nc_ht=scontent.fsgn5-4.fna&oh=c10898514e13e30865d67b53a2a0be0c&oe=5FB3E0E1"
               />
             }
           >
@@ -34,11 +34,11 @@ function App() {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src="https://scontent.fdad3-3.fna.fbcdn.net/v/t1.0-0/s526x395/121108493_118825286653903_4234418330511596790_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=-ef8VpdSdS8AX_ZWb22&_nc_ht=scontent.fdad3-3.fna&tp=7&oh=014599099b8cebb33dda74a9071d535d&oe=5FB4F3A9"
               />
             }
           >
-            <Meta title="N/A" description="N/A" />
+            <Meta title="Tài Lý" description="Designer" />
           </Card>
         </div>
         <p className="copyright" style={{ color: "#fff" }}>
