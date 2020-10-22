@@ -12,7 +12,7 @@ function App() {
           COMING SOON
         </h1>
         <h3 className="wip" style={{ color: "#fff" }}>
-          Sunday.com is under construction
+          Soga.io is under construction
         </h3>
 
         <div className="team">
@@ -41,8 +41,21 @@ function App() {
             <Meta title="Tài Lý" description="Designer" />
           </Card>
         </div>
+    <div className="team">
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://thedesignmanagementjournal.files.wordpress.com/2017/05/drowning-girl-391x395.jpg"
+              />
+            }
+          >
+            <Meta title="N/A" description="Marketing & Sales" />
+          </Card>
+        </div>
         <p className="copyright" style={{ color: "#fff" }}>
-          © 2020 Coming soon Sunday.com{" "}
+          © 2020 Coming soon Soga.io{" "}
         </p>
       </div>
     </div>
