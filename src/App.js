@@ -25,7 +25,7 @@ function App() {
               />
             }
           >
-            <Meta title="Tôny Quách" description="Developer" />
+            <Meta title="Tôny Quách" description="Developer (CEO)" />
           </Card>
         </div>
         <div className="team">
@@ -38,7 +38,7 @@ function App() {
               />
             }
           >
-            <Meta title="Tài Lý" description="Designer" />
+            <Meta title="Tài Lý" description="Designer (COO)" />
           </Card>
         </div>
     <div className="team">
